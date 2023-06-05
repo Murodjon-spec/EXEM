@@ -1,8 +1,8 @@
 <script setup>
-import { cart } from "../../constants/cart"
-import { tolov } from "../../constants/tolovturi"
-import { underCart } from "../../constants/underCart"
-import { saved } from "../../constants/saved"
+import { cart } from "../../plugin/cart"
+import { tolov } from "../../plugin/tolovturi"
+import { underCart } from "../../plugin/underCart"
+import { saved } from "../../plugin/saved"
 
 let sum = 0
 for (let i of cart) {

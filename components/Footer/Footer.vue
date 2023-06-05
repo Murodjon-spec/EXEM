@@ -1,9 +1,9 @@
 <script setup>
-import { footerLanguages } from "../../constants/footerLanguages"
-import { about } from "../../constants/about"
-import { information } from "../../constants/information"
-import { forUsers } from "../../constants/forUsers"
-import { footerMarkets } from "../../constants/footerMarkets"
+import { footerLanguages } from "../../plugin/footerLanguages"
+import { about } from "../../plugin/about"
+import { information } from "../../plugin/information"
+import { forUsers } from "../../plugin/forUsers"
+import { footerMarkets } from "../../plugin/footerMarkets"
 </script>
 
 

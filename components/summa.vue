@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { tolov } from "../constants/tolovturi"
+import { tolov } from "../plugin/tolovturi"
 console.log(tolov);
 
 

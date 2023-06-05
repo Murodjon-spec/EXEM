@@ -2,9 +2,9 @@
 
 import { initAccordions } from "flowbite"
 import { onMounted } from "vue"
-import { categories } from "../../constants/categories"
-import { features } from "../../constants/features"
-import { manufacturers } from "../../constants/manufacturers"
+import { categories } from "../../plugin/categories"
+import { features } from "../../plugin/features"
+import { manufacturers } from "../../plugin/manufacturers"
 import { NRate } from "naive-ui"
 
 onMounted(() => {

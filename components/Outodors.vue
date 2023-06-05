@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import { home } from "../constants/home";
+import { home } from "../plugin/home";
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,6 @@
 <script setup>
-import { headerCurrencies } from '../../constants/headerCurrencies';
-import { headerCountries } from "../../constants/headerCountries"
+import { headerCurrencies } from '../../plugin/headerCurrencies';
+import { headerCountries } from "../../plugin/headerCountries"
 </script>
 
 
@@ -9,7 +9,9 @@ import { headerCountries } from "../../constants/headerCountries"
         <div class="mx-auto container" style="font-family: 'Inter'">
             <div class="flex items-center justify-between">
                 <div class="grid grid-cols-6 gap-[25px] items-center font-medium">
-                    <div class="text-[18px] hover:cursor-pointer">All category</div>
+                    <nuxt-link to="/mobile">
+                        <div class="text-[18px] hover:cursor-pointer">All category</div>
+                    </nuxt-link>
                     <div class="text-[18px] hover:cursor-pointer">Hot offers</div>
                     <div class="text-[18px] hover:cursor-pointer">Gift boxes</div>
                     <div class="text-[18px] hover:cursor-pointer">Projects</div>

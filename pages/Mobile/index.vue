@@ -1,9 +1,9 @@
 <script setup>
 import { initAccordions } from "flowbite"
 import { onMounted } from "vue"
-import { filters } from "../../constants/filters"
+import { filters } from "../../plugin/filters"
 import { NRate } from "naive-ui"
-import { mobiles } from "../../constants/mobiles"
+import { mobiles } from "../../plugin/mobiles"
 
 onMounted(() => {
     initAccordions();

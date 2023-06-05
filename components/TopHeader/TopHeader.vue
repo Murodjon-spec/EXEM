@@ -1,5 +1,5 @@
 <script setup>
-import { topheaderSelect } from '../../constants/topheaderSelect';
+import { topheaderSelect } from '../../plugin/topheaderSelect';
 </script>
 
 

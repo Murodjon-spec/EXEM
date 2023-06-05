@@ -2,9 +2,9 @@
                     <div class="banner mr-[20px] w-[825px] pt-[52px] pl-[42px]">
                     <h1 class="text-[#1C1C1C] text-[28px]">Latest Trending</h1>
                     <h1 class="text-[#1C1C1C] text-[32px] font-bold mb-[18px]">Electronic items</h1>
-                    <nuxt-link to="/mobile"><button
+                    <button
                         class="font-medium text-[#1C1C1C] py-[10px] px-[16px] rounded-[6px] bg-white hover:shadow-lg duration-300">Learn
-                        more</button></nuxt-link>
+                        more</button>
                 </div>
                 <div class="w-auto gap-[17px] items-center" style="display: grid; grid-template-columns: 100%;">
                     <div class="rounded-[6px] p-[10px] bg-[#E3F0FF] w-[100%]">

@@ -38,7 +38,7 @@
 
 <script setup>
 
-import { voht } from "../constants/voht";
+import { voht } from "../plugin/voht";
 
 const Kun = ref(31)
 const sogot = ref(23)

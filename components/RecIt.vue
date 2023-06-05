@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { recommendations } from "../constants/recommendations";
+import { recommendations } from "../plugin/recommendations";
 </script>
 
 <style lang="scss" scoped></style>

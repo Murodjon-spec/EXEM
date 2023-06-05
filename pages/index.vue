@@ -1,9 +1,9 @@
 <script setup>
-import { left_h } from "../constants/left_h";
-import { gadgets } from "../constants/gadgets"
-import { units } from "../constants/units"
+import { left_h } from "../plugin/left_h";
+import { gadgets } from "../plugin/gadgets"
+import { units } from "../plugin/units"
 
-import { suppliers } from "../constants/suppliers"
+import { suppliers } from "../plugin/suppliers"
 </script>
 
 
