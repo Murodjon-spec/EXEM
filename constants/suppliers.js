@@ -1,52 +1,53 @@
 export const suppliers = [
     {
-        country: "Australia",
-        site: "brandshop.au",
-        img: "AU.png"
-    },
-    {
         country: "United Arab Emirates",
         site: "brandshop.ae",
-        img: "AE.png"
+        img: "ArabEmir.png"
     },
+    {
+        country: "Australia",
+        site: "brandshop.au",
+        img: "Australia.png"
+    },
+    
     {
         country: "United States of America",
         site: "brandshop.com",
-        img: "US.png"
+        img: "USA.png"
     },
     {
         country: "Russia",
         site: "brandshop.ru",
-        img: "RU.png"
+        img: "RUSSION.png"
     },
     {
         country: "Denmark",
         site: "brandshop.com.dk",
-        img: "DK.png"
+        img: "Denmark.png"
     },
     {
         country: "Italy",
         site: "brandshop.it",
-        img: "IT.png"
+        img: "Italy.png"
     },
     {
         country: "France",
         site: "brandshop.fr",
-        img: "FR.png"
+        img: "France.png"
     },
     {
         country: "United Arab Emirates",
         site: "brandshop.ae",
-        img: "AE.png"
+        img: "ArabEmir.png"
     },
     {
         country: "Germany",
         site: "brandshop.de",
-        img: "DE.png"
+        img: "Germany.png"
     },
     {
         country: "China",
         site: "brandshop.cn",
-        img: "CN.png"
+        img: "China.png"
     },
 ]

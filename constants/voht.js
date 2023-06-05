@@ -1,4 +1,4 @@
-export const offers = [
+export const voht = [
     {
         id: 1,
         product: "Smart watches",

@@ -20,8 +20,6 @@ import { headerCountries } from "../../constants/headerCountries"
                         </select>
                     </div>
                 </div>
-
-                
                 <div>
                     <select name="currencies" id="" class="bg-white outline-none border-none font-medium hover:cursor-pointer">
                         <option v-for="el in headerCurrencies" :value="el.title">{{ el.title }}</option>

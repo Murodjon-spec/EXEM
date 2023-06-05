@@ -1,6 +1,6 @@
 <script setup>
 import { cart } from "../../constants/cart"
-import { pay } from "../../constants/pay"
+import { tolov } from "../../constants/tolovturi"
 import { underCart } from "../../constants/underCart"
 import { saved } from "../../constants/saved"
 
@@ -120,8 +120,8 @@ for (let i of cart) {
                             <button
                                 class="w-full bg-[#00B517] text-white text-[18px] py-[20px] rounded-[8px] hover:bg-[#006a0e] duration-300">Checkout</button>
                             <div class="flex items-center justify-center py-[20px] gap-[15px]">
-                                <img v-for="el in pay" :src="el + '.png'" width="45" height="30" alt="">
-                            </div>
+                                <img v-for="el in tolov" :src="el + '.png'" width="45" height="30" alt="">
+                            </div>x 
                         </div>
                     </div>
                 </div>

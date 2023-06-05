@@ -1,4 +1,4 @@
-export const pay = [
+export const tolov = [
     "American", 
     "Mastercard", 
     "Paypal", 

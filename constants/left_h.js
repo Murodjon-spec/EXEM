@@ -1,4 +1,4 @@
-export const main1 = [
+export const left_h = [
     {title: "Automobiles"},
     {title: "Clothes and wear"},
     {title: "Home interiors"},
